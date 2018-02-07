@@ -7,7 +7,7 @@ def my_collect(array)
       i += 1
   end
   collection
-=======
+end 
 def my_collect(collection)
   collection = ['tim', 'tom', 'joe', 'mike']
   my_collect(collection) do
