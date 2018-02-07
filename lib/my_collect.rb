@@ -1,3 +1,4 @@
+
 def my_collect(array)
   i = 0
   collection = []
@@ -6,4 +7,10 @@ def my_collect(array)
       i += 1
   end
   collection
+=======
+def my_collect(collection)
+  collection = ['tim', 'tom', 'joe', 'mike']
+  my_collect(collection) do
+    lang.upcase
+  end
 end
